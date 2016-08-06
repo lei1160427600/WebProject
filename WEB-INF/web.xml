@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserAction</servlet-name>
+    <servlet-class>action.UserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostingsAction</servlet-name>
+    <servlet-class>action.PostingsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsAction</servlet-name>
+    <servlet-class>action.NewsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MaterialsAction</servlet-name>
+    <servlet-class>action.MaterialsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RpostingsAction</servlet-name>
+    <servlet-class>action.RpostingsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageAction</servlet-name>
+    <servlet-class>action.MessageAction</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserAction</servlet-name>
+    <url-pattern>/UserAction</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>MaterialsAction</servlet-name>
+    <url-pattern>/MaterialsAction</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>NewsAction</servlet-name>
+    <url-pattern>/NewsAction</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>PostingsAction</servlet-name>
+    <url-pattern>/PostingsAction</url-pattern>
+  </servlet-mapping>	
+  <servlet-mapping>
+    <servlet-name>RpostingsAction</servlet-name>
+    <url-pattern>/RpostingsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageAction</servlet-name>
+    <url-pattern>/MessageAction</url-pattern>
+  </servlet-mapping>	
+  
+  
+  
+  
+  
+  
+ <session-config>
+ 	<session-timeout>600</session-timeout>
+ </session-config>
+ 
+ 
+ 
+ 
+ 
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
